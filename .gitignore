@@ -1,0 +1,80 @@
+# --- Build outputs ---
+BUILDS/
+build/
+Build/
+CMakeTmp/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# --- Visual Studio ---
+.vs*/
+*.suo
+*.sdf
+*.opensdf
+*.log
+*.tlog
+*.ipch
+*.obj
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.exp
+
+# --- IDE / Editor ---
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+
+# --- CMake generated ---
+*.dir/
+*.a  # Unix static libs (cross-build artifacts)
+*.so  # Unix shared libs
+target_*.hpp
+wsf_extensions.hpp
+
+# --- Runtime outputs ---
+*.aps
+*.analysis_map
+*.db
+*.draw
+*.evt
+*.gnu
+*.lis
+*.plt
+*.rep
+*.sed
+*.tmp
+*.vertical_map
+*.vg.xml
+*.aer
+
+auto_grid_*
+tspi_relocate_and_rotate_out_*
+
+# --- Log files ---
+*.log
+!swdev/dependencies/**/*.log
+# 台位控制命令运行期日志（JSON Lines，写在后端进程工作目录）
+station_control_log.jsonl
+
+# --- OS files ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
